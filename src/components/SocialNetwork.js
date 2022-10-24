@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const SocialNetwork = () => {
+  useEffect(() => {
+    const icons = document.querySelectorAll(".social-network a")
+    icons.forEach((link) => {
+      link.addEventListener("mouseover", (e) => {
+        link.style.transform = `translate(${e.offsetX - 20}px, ${e.offsetY - 13}px)`
+      });
+      link.addEventListener("mouseleave", (e) => {
+        link.style.transform = ""
+      })
+    })
+  })
   return (
     <div className="social-network">
       <ul className="content">
@@ -8,6 +19,7 @@ const SocialNetwork = () => {
           href="https://www.facebook.com"
           target="_blank"
           rel="noopener noreferrer"
+          className='hover'
         >
           <li>
             <i className="fab fa-facebook-f"></i>
@@ -17,6 +29,8 @@ const SocialNetwork = () => {
           href="https://www.twitter.com"
           target="_blank"
           rel="noopener noreferrer"
+          className='hover'
+
         >
           <li>
             <i className="fab fa-twitter"></i>
@@ -26,6 +40,8 @@ const SocialNetwork = () => {
           href="https://www.instagram.com"
           target="_blank"
           rel="noopener noreferrer"
+          className='hover'
+
         >
           <li>
             <i className="fab fa-instagram"></i>
