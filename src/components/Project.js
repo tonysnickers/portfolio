@@ -21,6 +21,7 @@ console.log(currentProject)
               <h3>{currentProject.title}</h3>
               <p>{currentProject.infos}</p>
             </span>
+            <img src={currentProject.img} alt="" />
         </div>
       </div>
     </div>
