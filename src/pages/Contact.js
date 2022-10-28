@@ -1,17 +1,32 @@
 import React from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
+import Buttons from '../components/Buttons'
 import ContactForm from '../components/ContactForm'
 import Logo from '../components/Logo'
 import Mouse from '../components/Mouse'
 import Navigation from '../components/Navigation'
 import SocialNetwork from '../components/SocialNetwork'
+import { motion } from "framer-motion";
+
 
 
 const Contact = () => {
+
+  const pageTransition = {
+    in: {
+      opacity: 1,
+      x: 0,
+    },
+
+    out: {
+      opacity: 0,
+      x: 200,
+    },
+  }
   return (
     <main>
       <Mouse />
-      <div className="contact">
+      <motion.div initial="out" animate="in" variants={pageTransition} transition={{duration: 0.6 }} className="contact">
         <Navigation />
         <Logo />
         <ContactForm />
@@ -52,8 +67,12 @@ const Contact = () => {
             </div>
           </div>
           <SocialNetwork/>
+          <div className="credits">
+            <p>Antoine Mendy - 2022</p>
+          </div>
         </div>
-      </div>
+        <Buttons left={'/project-4'}/>
+      </motion.div>
     </main>
   )
 }
