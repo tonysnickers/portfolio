@@ -1,33 +1,33 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Casta",
-    date: "Janvier 2020",
-    languages: ["React", "Php", "Sass"],
+    title: "Institut Moula",
+    date: "Aout 2022",
+    languages: ["Ruby On Rails", "Javascript", "Stimulus Js", "Boostrap", "HTML", "CSS"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-2.jpg",
-    link: "http://www.google.com",
+    img: "./assets/img/Capture d’écran 2022-10-28 à 18.13.05.png",
+    link: "http://institut-moula.herokuapp.com/",
   },
   {
     id: 2,
-    title: "Lyon Béton",
-    date: "Mars 2020",
-    languages: ["Symfony", "Vue"],
+    title: "Claps-860",
+    date: "Juin 2022",
+    languages: ["Ruby On Rails", "Javascript", "Boostrap", "HTML", "CSS"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-1.jpg",
-    link: "http://www.google.com",
+    img: "./assets/img/projet-1.jpg.png",
+    link: "https://claps-860.herokuapp.com/",
   },
   {
     id: 3,
-    title: "Everpost",
-    date: "Avril 2020",
-    languages: ["Wordpress", "Php", "React"],
+    title: "Furnitures Finder",
+    date: "Mai 2022",
+    languages: ["Ruby On Rails", "Javascript", "Boostrap", "HTML", "CSS"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-3.jpg",
-    link: "http://www.google.com",
+    img: "./assets/img/Capture d’écran 2022-10-28 à 18.05.45.png",
+    link: "https://furnitures-finder.herokuapp.com/",
   },
   {
     id: 4,

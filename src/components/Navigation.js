@@ -9,10 +9,10 @@ const Navigation = () => {
           to={'/'}
           className={(nav) => (nav.isActive ? 'nav-active hover' : 'hover')}
         >
-          <li>accueil</li>
+          <li>Accueil</li>
         </NavLink>
         <li className="nav-portfolio">
-          portfolio
+          Portfolio
           <ul className="nav-projects">
             <NavLink
               to={'/project-1'}
@@ -41,7 +41,7 @@ const Navigation = () => {
           </ul>
         </li>
         <NavLink
-          to={'contact'}
+          to={'/contact'}
           className={(nav) => (nav.isActive ? 'nav-active hover' : 'hover')}
         >
           <li>Contact</li>
