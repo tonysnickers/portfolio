@@ -16,35 +16,24 @@ const SocialNetwork = () => {
     <div className="social-network">
       <ul className="content">
         <a
-          href="https://www.facebook.com"
+          href="https://www.linkedin.com/in/antoine-mendy-5aa8b8b1/"
           target="_blank"
           rel="noopener noreferrer"
-          className='hover'
+          className='hover linkedin'
         >
           <li>
-            <i className="fab fa-facebook-f"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </li>
         </a>
         <a
-          href="https://www.twitter.com"
+          href="https://github.com/tonysnickers"
           target="_blank"
           rel="noopener noreferrer"
-          className='hover'
+          className='hover github'
 
         >
           <li>
-            <i className="fab fa-twitter"></i>
-          </li>
-        </a>
-        <a
-          href="https://www.instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className='hover'
-
-        >
-          <li>
-            <i className="fab fa-instagram"></i>
+            <i className="fa-brands fa-github"></i>
           </li>
         </a>
       </ul>
