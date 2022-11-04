@@ -8,12 +8,12 @@ import Project from '../components/Project'
 const Project1 = () => {
   return (
     <main>
-        <Mouse/>
+      <Mouse />
       <div className="project">
-        <Navigation/>
-        <Logo/>
-        <Project projectNumber={0}/>
-        <Buttons left={'/'} right={"/project-2"}/>
+        <Navigation />
+        <Logo />
+        <Project projectNumber={0} />
+        <Buttons left={'/'} right={'/project-2'} />
       </div>
     </main>
   )

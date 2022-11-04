@@ -7,6 +7,7 @@ import Project4 from './pages/Project4'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import { AnimatePresence } from 'framer-motion'
+import Apropos from './pages/Apropos'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AnimatePresence>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/a-propos" element={<Apropos />} />
           <Route path="/project-1" element={<Project1 />} />
           <Route path="/project-2" element={<Project2 />} />
           <Route path="/project-3" element={<Project3 />} />
