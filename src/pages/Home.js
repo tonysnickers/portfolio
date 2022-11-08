@@ -39,7 +39,7 @@ const Home = () => {
             </motion.h2>
           </div>
         </div>
-        <Buttons right={'/project-1'} />
+        <Buttons right={'/a-propos'} />
       </div>
     </div>
   )

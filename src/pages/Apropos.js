@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navigation from '../components/Navigation'
 import { motion } from 'framer-motion'
+import Buttons from '../components/Buttons'
 
 const Apropos = () => {
   const [left, setLeft] = useState()
@@ -49,7 +50,7 @@ const Apropos = () => {
   }
 
   return (
-    <div>
+    <div >
       <Navigation />
 
       <motion.div
@@ -60,10 +61,11 @@ const Apropos = () => {
         transition={transition}
         variants={variants}
       >
-        <main className="a-propos">
+        <section className="a-propos">
+
           <h1>A propos de moi</h1>
           <div className="about-card">
-            <p>
+            <p className='blocks'>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Laboriosam numquam quas recusandae, sapiente neque voluptates
               omnis excepturi vel sequi labore repellat assumenda tempora
@@ -74,7 +76,7 @@ const Apropos = () => {
               impedit reiciendis necessitatibus sunt. Placeat, maxime quaerat?
             </p>
           </div>
-        </main>
+        </section>
         <motion.div
           initial="initial"
           animate="visible"
@@ -87,6 +89,8 @@ const Apropos = () => {
           style={{ left, top, tranform: size }}
         ></span>
       </motion.div>
+      <Buttons left={'/'} right={'/project-1'} />
+
     </div>
   )
 }
