@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 import { AnimatePresence } from 'framer-motion'
 import Apropos from './pages/Apropos'
+import DynamicText from './components/DynamicText'
 
 function App() {
   return (
