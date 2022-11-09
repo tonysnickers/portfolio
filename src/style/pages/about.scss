@@ -1,36 +1,75 @@
 .a-propos {
   text-align: center;
-  margin: 10% auto;
-  width: 50%;
-  border: 1px solid #E8F7FE;
-  padding: 35px ;
+  margin-left: 100%;
+  // width: 50%;
+  position: relative;
+  top: 90px;
+  border: 1px solid #b9e9ff;
+  padding: 35px;
   border-radius: 15px;
   justify-content: center;
   align-items: center;
+  text-align: center;
   display: flex;
-  height: 400px;
-  background-color: #E8F7FE;
-  transition: .5s;
+  // height: 400px;
+  // background-color: #E8F7FE;
+  transition: 0.5s;
+  width: 100%;
+  -webkit-box-shadow: 5px 5px 15px -7px #b9e9ff;
+  box-shadow: 5px 5px 15px -7px #b9e9ff;
+  display: grid;
+  grid-template-columns: 1fr;
 
-
-  .about-card{
+  .about-card {
     text-align: center;
     justify-content: center;
     padding: 10px;
 
-    h1{
+    h1 {
       font-weight: bold;
       font-size: 2.9rem;
       margin-bottom: 25px;
     }
-    p{
+    p {
       font-size: 20px;
       line-height: 30px;
     }
   }
 
-  &:hover{
-    background-color: #b9e9ff;
-    transition: .5s;
+  // &:hover {
+  //   background-color: #b9e9ff;
+  //   transition: 0.5s;
+  // }
+}
+
+@media  (min-width: 300px) and (max-width: 650px){
+  .a-propos{
+    display: grid;
+    height: 450px;
+    margin: 10px auto;
+    font: 15px;
   }
+// }
+// @media screen and (min-width: 700px){
+//   .a-propos{
+//     width: 100%;
+//     margin-left: 100%;
+
+//   }
+//   .about-card {
+//     text-align: center;
+//     justify-content: center;
+//     padding: 10px;
+
+//     h1 {
+//       font-weight: bold;
+//       font-size: 15px;
+//       margin-bottom: 25px;
+//     }
+//     p {
+//       font-size: 20px;
+//       line-height: 30px;
+//     }
+//   }
+
 }

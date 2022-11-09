@@ -50,7 +50,7 @@ const Apropos = () => {
   }
 
   return (
-    <div>
+    <div className='project'>
       <Navigation />
 
       <motion.div
@@ -81,12 +81,12 @@ const Apropos = () => {
           transition={{ duration: 1.2 }}
           className="img-content"
         ></motion.div>
+      </motion.div>
+      <Buttons left={'/'} right={'/project-1'} />
         <span
           className="random-circle"
           style={{ left, top, tranform: size }}
         ></span>
-      </motion.div>
-      <Buttons left={'/'} right={'/project-1'} />
     </div>
   )
 }
