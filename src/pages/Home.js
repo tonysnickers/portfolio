@@ -24,7 +24,7 @@ const Home = () => {
                 bottom: 250,
               }}
             >
-              Tony Mendy
+              Antoine Mendy
             </motion.h1>
             <motion.h2
               drag

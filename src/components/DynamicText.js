@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 const DynamicText = () => {
   useEffect(() => {
     const target = document.getElementById('text-target')
-    let array = ['Front-end']
+    let array = ['Front-end', 'Fullstack']
     let wordIndex = 0
     let letterIndex = 0
 
