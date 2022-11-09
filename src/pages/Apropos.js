@@ -50,7 +50,7 @@ const Apropos = () => {
   }
 
   return (
-    <div className='project'>
+    <div className="project">
       <Navigation />
 
       <motion.div
@@ -65,12 +65,11 @@ const Apropos = () => {
           <div className="about-card">
             <h1>A propos de moi</h1>
             <p className="blocks">
-              Hello ! Je m’appelle Antoine Mendy, développeur fullstack/ front-end.
-              Après une carrière semi-pro dans le football notamment en
-              Allemagne. j'ai décidé de m'orienter en tant que développeur web.
-              Étant attiré par l’univers de la tech, je conçois des projets web
-              en autonomie. j'aime expérimenter, découvrir et apprendre des
-              nouvelles technologies.
+              Hello ! Je m’appelle Antoine Mendy, après une carrière semi-pro
+              dans le football notamment en Allemagne. j'ai décidé de m'orienter
+              en tant que développeur web. Étant attiré par l’univers de la
+              tech, je conçois des projets web en autonomie. J'aime
+              expérimenter, découvrir et apprendre des nouvelles technologies.
             </p>
           </div>
         </section>
@@ -83,10 +82,10 @@ const Apropos = () => {
         ></motion.div>
       </motion.div>
       <Buttons left={'/'} right={'/project-1'} />
-        <span
-          className="random-circle"
-          style={{ left, top, tranform: size }}
-        ></span>
+      <span
+        className="random-circle"
+        style={{ left, top, tranform: size }}
+      ></span>
     </div>
   )
 }
