@@ -13,7 +13,7 @@ export const projectsData = [
     ],
     infos: 'Site en cours de developpement..',
     img: './assets/img/Capture d’écran 2022-10-28 à 18.13.05.png',
-    link: 'http://institut-moula.herokuapp.com/',
+    link: 'http://institut-moula.fly.dev/',
   },
   {
     id: 2,
