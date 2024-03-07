@@ -40,12 +40,12 @@ const Navigation = () => {
             >
               <li>project 3</li>
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to={'/project-4'}
               className={(nav) => (nav.isActive ? 'nav-active hover' : 'hover')}
             >
               <li>project 4</li>
-            </NavLink>
+            </NavLink> */}
           </ul>
         </li>
         <NavLink
